@@ -9,7 +9,6 @@
 .profile-info {
 }
 .profile-info a {
-  text-decoration: none;
   color: white;
 }
 .portfolio-image {
@@ -99,6 +98,11 @@ a {
   color: white;
   font-size: 2rem;
 }
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  opacity: 0.5;
+}
 .social-media {
   display: flex;
   width: 30%;
@@ -122,6 +126,16 @@ a {
   border-radius: 10px;
   padding: 5px 35px;
 }
-.close-x {
+
+.link-button {
+  border: 3px solid white;
   color: white;
+  background-color: #000211;
+  border-radius: 5px;
+  width: 200px;
+}
+.link-button:hover {
+  border: 3px solid #000211;
+  color: #000211;
+  background-color: white;
 }
