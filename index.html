@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body class="body">
+    
+    <section class="body-container">
+      <section class="img-skills-container d-flex">
+        <img
+          src="./images/portfolio-image.jpg"
+          alt="myself"
+          class="portfolio-image m-5"
+        />
+        <section class="profile-info p-5">
+          <h2>Matthew Zwerlein</h2>
+          <h3></h3>
+          
+          
+          <h3>Email: mattz912345@gmail.com </h3>
+          <h3><a href="https://linkedin.com/in/matthew-zwerlein-41924925a"
+             target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></i
+          ></a></h3>
+          <h3><a href="https://github.com/mattcodings?tab=repositories"
+             target="_blank">GitHub <i class="fa-brands fa-github"></i
+          ></a></h3>
+          <div class="d-flex justify-content-between"><div>
+          <h3 class="mt-5 text-center">Goal</h3>
+          <h5>Front-End or Full-Stack Developer</h5>
+          </div>
+          <div>
+          <h3 class="mt-5 text-center">Background</h3>
+          <h5>Management and Customer Service</h5>
+          </div>
+          <div>
+          <h3 class="mt-5 text-center">Interests</h3>
+          <h5>JavaScript, React, Vue</h5>
+          </div>
+          </div>
+        </section>
+        
+      </section>
+      <h2 class="text-center mt-5">Skills</h2>
+      <hr>
+<div class="list mb-5">
+          <ul class="skills-list d-flex justify-content-between">
+            <li>
+              HTML/CSS/Bootstrap <div><i class="fa-brands fa-bootstrap"></div></i>
+            </li>
+            <li>JavaScript <div><i class="fa-brands fa-js"></div></i></li>
+            <li>Vue <div><i class="fa-brands fa-vuejs"></div></i></li>
+            <li>React <div><i class="fa-brands fa-react"></div></i></li>
+            <li>Firebase <div><i class="fa-solid fa-database firebase-color"></div></i></li>
+            <li>WordPress <div><i class="fa-brands fa-wordpress"></div></i></li>
+            <li>PHP <div><i class="fa-brands fa-php"></div></i></li>
+            <li>XD/Figma <div><i class="fa-brands fa-figma"></i></div></li>
+          </ul>
+          </div>
+          <h2 class="text-center">Projects</h2>
+          <hr>
+      <section class="project-container mt-5">
+        <a data-bs-toggle="modal" data-bs-target="#dataMedModal"
+          ><img
+            src="./images/VueProjectDataMed.jpg"
+            alt=""
+            class="data-med project-image"
+        /></a>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="dataMedModal"
+          tabindex="-1"
+          aria-labelledby="dataMedModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-color text-center">
+                <h1 class="modal-title" id="dataMedModalLabel">DataMed</h1>
+                <button
+                  type="button"
+                  class="btn-close close-x"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body modal-color">
+                <p>
+                  This project was created from a User Interface Design
+                  assignment. It uses a mix of Vue 2's Options API and Vue 3's
+                  Composition API
+                </p>
+                <ul class="modal-tools-container">
+                  <li>
+                    Vue
+                    <div><i class="fa-brands fa-vuejs"></i></div>
+                  </li>
+                  <li>
+                    Bootstrap
+                    <div><i class="fa-brands fa-bootstrap"></i></div>
+                  </li>
+                  <li>
+                    Firebase
+                    <div><i class="fa-solid fa-database firebase-color"></i></div>
+                  </li>
+                </ul>
+                <h3>Includes</h3>
+                <ul>
+                  <li>
+                    Firebase Login for multiple users with the ability for users
+                    to change their individual profile
+                  </li>
+                  <li>API fetch to retrieve news data</li>
+                  <li>Shopping cart that uses local storage</li>
+                  <li>Vue Router</li>
+                </ul>
+              </div>
+              <div class="modal-foot d-flex justify-content-evenly pb-5">
+                <div>
+                <a href="https://github.com/mattcodings/data-med" target="_blank"><button type="button">GitHub</button> </a></div>
+                <div>
+                <a href="https://mattcodings.github.io/data-med/#/" target="_blank"><button type="button">Website</button></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a data-bs-toggle="modal" data-bs-target="#authorModal"
+          ><img
+            src="./images/WordPressDevelopment.jpg"
+            alt=""
+            class="author-website project-image"
+        /></a>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="authorModal"
+          tabindex="-1"
+          aria-labelledby="authorModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-color text-center">
+                <h1 class="modal-title" id="authorModalLabel">
+                  Author Website
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body modal-color">
+                <p>
+                  This was the final project in WordPress Development. The theme
+                  was built from scratch using Underscores
+                </p>
+
+                <ul class="modal-tools-container">
+                  <li>
+                    WordPress
+                    <div><i class="fa-brands fa-wordpress"></i></div>
+                  </li>
+                  <li>
+                    PHP
+                    <div><i class="fa-brands fa-php"></i></div>
+                  </li>
+                  <li>
+                    MyAdmin
+                    <div><i class="fa-solid fa-database phpmyadmin-color"></i></div>
+                  </li>
+                </ul>
+                <h3>Includes</h3>
+                <ul>
+                  <li>Custom Plugin with Shortcodes</li>
+                  <li>OOP (Composition)</li>
+                  <li>Sorting and Pagination</li>
+                </ul>
+              </div>
+              <div class="modal-foot d-flex justify-content-evenly pb-5">
+                <div>
+                <a href="https://github.com/mattcodings/author-website" target="_blank"><button type="button">GitHub</button> </a></div>
+                <div>
+                <a href="https://mzwerlein.bitlampsites.com/wpd/final/wordpress/" target="_blank"><button type="button">Website</button></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a data-bs-toggle="modal" data-bs-target="#exampleModal"
+          ><img
+            src="./images/ReactProjectBrightHouse.jpg"
+            alt=""
+            class="bright-house project-image"
+        /></a>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog border-color">
+            <div class="modal-content ">
+              <div class="modal-color text-center">
+                <h1 class="modal-title" id="exampleModalLabel">BrightHouse</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body modal-color">
+                <p>
+                  This was a project in User Interface Design. Please note: I
+                  have yet to take the React class at WCTC. This project was the
+                  result from self-teaching, and was created to learn state
+                  hooks and the React router.
+                </p>
+
+                <ul class="modal-tools-container">
+                  <li>
+                    React
+                    <div><i class="fa-brands fa-react"></i></div>
+                  </li>
+                  <li>
+                    Vanilla JS
+                    <div><i class="fa-brands fa-js"></i></div>
+                  </li>
+                </ul>
+                <h3>Includes</h3>
+                <ul>
+                  <li>Hooks</li>
+                  <li>React Router</li>
+                </ul>
+              </div>
+              <div class="modal-foot d-flex justify-content-evenly pb-5">
+                <div>
+                <a href="https://github.com/mattcodings/brighthouse" target="_blank"><button type="button" class="github-button">GitHub</button> </a></div>
+                <div>
+                <a href="https://mattcodings.github.io/brighthouse/" target="_blank"><button type="button" class="linkedin-button">Website</button></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-me mt-5">
+        <div>
+          <h3>About Me</h3>
+          <p>
+            I am a Front-End Web Development student at Waukesha County
+            Technical College and expect to graduate in May of 2024. I have a
+            lot of customer service experience in the restaurant business (about
+            15 years) but had some friends introduce me to programming and I've
+            enjoyed it ever since.
+          </p>
+        </div>
+        <div>
+          <h3>What I'm Looking For</h3>
+          <p>
+            I enjoy a lot about Web Development and am open to most programming
+            jobs whether that includes PHP and/or WordPress or any other
+            language, but I would like to be working with JavaScript and its
+            frameworks as well. I am more than happy to learn new skills along
+            the way!
+          </p>
+        </div>
+      </section>
+      <h4 class="text-center mt-5">Thank you for your consideration!</h4>
+      <div class="social-media my-5">
+          <a href="https://linkedin.com/in/matthew-zwerlein-41924925a"
+             target="_blank"><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/mattcodings?tab=repositories"
+             target="_blank"><i class="fa-brands fa-github"></i
+          ></a>
+          </div>
+    </section>
+    
+    <script type="module" src="index.js"></script>
+    
+  </body>
+</html>

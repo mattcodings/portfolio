@@ -1,0 +1,127 @@
+.body {
+  background-color: #000211;
+  color: white;
+}
+.body-container {
+  width: 90%;
+  margin: auto;
+}
+.profile-info {
+}
+.profile-info a {
+  text-decoration: none;
+  color: white;
+}
+.portfolio-image {
+  width: 300px;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.list,
+.profile-info {
+  width: 100%;
+}
+.skills-list {
+  list-style-type: none;
+  width: 100%;
+}
+.skills-list li {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-container img {
+  width: 500px;
+  height: 400px;
+}
+
+.modal-tools-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.modal-tools-container li {
+  font-size: 2.25rem;
+}
+
+.modal-tools-container li div {
+  text-align: center;
+}
+
+.about-me {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.about-me p {
+  width: 80%;
+}
+
+.project-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.fa-vuejs {
+  color: #42b883;
+}
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.firebase-color {
+  color: red;
+}
+.phpmyadmin-color {
+  color: #61dafb;
+}
+.fa-wordpress {
+  color: #00749c;
+}
+.fa-php {
+  color: #8993be;
+}
+.fa-react {
+  color: #61dafb;
+}
+.fa-js {
+  color: #f0db4f;
+}
+.fa-github,
+.fa-linkedin {
+  color: white;
+  font-size: 2rem;
+}
+.social-media {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.border-color {
+  border: 3px solid white;
+}
+.modal-color {
+  background-color: #000211;
+}
+.modal-foot {
+  background-color: #000211;
+}
+.github-button {
+  border-radius: 10px;
+  padding: 5px 35px;
+}
+.linkedin-button {
+  border-radius: 10px;
+  padding: 5px 35px;
+}
+.close-x {
+  color: white;
+}
