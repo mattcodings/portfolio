@@ -8,7 +8,7 @@ const projectItems = data.map((item) => {
             src="${item.image}"
             alt=""
             class="project-image"
-        /><h4 class="text-center">${item.projectName}</h4></a>
+        /><h4 class="text-center mb-5">${item.projectName}</h4></a>
         
 
         <!-- Modal -->
@@ -59,11 +59,3 @@ for (let item of projectItems) {
 }
 
 projectContainer.appendChild(projects);
-// console.log(projectItems.length);
-// console.log(project);
-
-// for (let project of projectItems) {
-//   let div = document.createElement("div");
-//   div.innerHTML = project;
-//   projectContainer.appendChild(projectItems);
-// }

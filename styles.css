@@ -56,14 +56,10 @@ a {
 }
 
 .about-me {
-  display: flex;
-  width: 70%;
   margin: auto;
+  width: 70%;
 }
 
-.about-me p {
-  width: 80%;
-}
 .single-project {
 }
 .project-image:hover {
@@ -111,6 +107,12 @@ a {
   margin: auto;
   justify-content: space-evenly;
 }
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+}
+
 .border-color {
   border: 3px solid white;
 }
@@ -144,9 +146,14 @@ a {
 
 .img-skills-container {
   display: flex;
+  align-items: center;
 }
 
-@media screen and (max-width: 1000px) {
+.looking-for {
+  width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
   .img-skills-container {
     display: block;
   }
