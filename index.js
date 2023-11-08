@@ -23,12 +23,7 @@ const projectItems = data.map((item) => {
             <div class="modal-content">
               <div class="modal-color text-center">
                 <h1 class="modal-title" id="${item.id}Label">${item.projectName}</h1>
-                <button
-                  type="button"
-                  class="btn-close close-x"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
+                
               </div>
               <div class="modal-body modal-color">
                 <p>
@@ -48,7 +43,14 @@ const projectItems = data.map((item) => {
                 <a href="${item.githubLink}" target="_blank"><button type="button" class="link-button">GitHub</button> </a></div>
                 <div>
                 <a href="${item.websiteLink}" target="_blank"><button type="button" class="link-button">Website</button></a></div>
+                
               </div>
+              <button
+                  type="button"
+                  class="link-button close-button"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >Close</button>
             </div>
           </div>
         </div>`;

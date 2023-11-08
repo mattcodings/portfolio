@@ -144,6 +144,10 @@ a {
   background-color: white;
 }
 
+.close-button {
+  width: 100%;
+}
+
 .img-skills-container {
   display: flex;
   flex-wrap: wrap;
