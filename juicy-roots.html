@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
     <link rel="stylesheet" href="/styles.css" />
     <link
       rel="stylesheet"
@@ -10,30 +11,40 @@
     />
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Web Development Portfolio - JuicyRoots Cafe Website</title>
   </head>
 
   <body class="bg-[#333]">
-    <nav class="flex justify-end text-white text-3xl w-[90%] mt-8 mx-auto">
-      <div class="flex gap-x-20 items-center">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="resume.html">Resume</a>
-      </div>
-    </nav>
+    <div id="navbar"></div>
+    <script src="loadNav.js"></script>
+    <div class="flex w-[90%] mx-auto justify-between mt-20">
+      <a href="data-med.html"
+        ><button
+          class="border-2 border-[#fff] px-4 py-2 bg-[#333] font-bold rounded-full text-[#fff]"
+        >
+          <i class="fa-solid fa-arrow-left"></i> DataMed Website
+        </button></a
+      >
+      <a href="author-website.html"
+        ><button
+          class="border-2 border-[#fff] px-4 py-2 bg-[#333] font-bold rounded-full text-[#fff]"
+        >
+          Author Website <i class="fa-solid fa-arrow-right"></i></button
+      ></a>
+    </div>
     <h2
-      class="lg:text-6xl text-4xl text-white border-b-8 mt-52 w-[90%] mx-auto"
+      class="lg:text-6xl text-4xl text-white border-b-8 mt-32 w-[90%] mx-auto pb-3"
     >
-      Author Website
+      JuicyRoots Cafe
     </h2>
     <div class="flex flex-wrap gap-y-10 w-[90%] mx-auto items-center mt-20">
       <p class="text-2xl text-white lg:w-1/2">
-        This project is from WordPress Development, and utilizes PHP and
-        WordPress. Some features in this website include a 'newest release'
-        book, random reviews created as custom post types in WordPress, the most
-        and the most recent books by the author. In the Books tab there is a
-        filter for the books as well as pagination. If a book is selected, the
-        page will also display other books within the series of that book.
+        This website uses PHP, Bootstrap, and SQL through PHPMyAdmin. If the
+        user is an admin, they can add inventory (name, type, quantity), build
+        menu items from the list of inventory, and delete and edit items as
+        well. A user can log in to the website, add items to their cart from the
+        menu, and create their own juice. By doing this, the inventory is
+        reduced.
       </p>
       <div class="lg:w-1/2 text-center mx-auto">
         <a
