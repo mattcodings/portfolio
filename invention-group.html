@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+
+  <body class="bg-[#333]">
+    <nav class="flex justify-end text-white text-3xl w-[90%] mt-8 mx-auto">
+      <div class="flex gap-x-20 items-center">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+      </div>
+    </nav>
+
+    <h2 class="text-6xl text-white border-b-8 mt-52 w-[90%] mx-auto">
+      The Invention Group
+    </h2>
+    <div class="flex flex-wrap gap-y-10 w-[90%] mx-auto items-center mt-20">
+      <p class="text-2xl text-white lg:w-1/2">
+        The Invention Group website utilizes the NextJS framework, Tailwind,
+        DaisyUI, Recharts, and PostGRES with Prisma (deployed on Render). There
+        are several features in this website. Users can submit an invention once
+        logged in. An admin then approves or denies the invention. The user then
+        can make a payment through the Stripe API. Once the user has paid, a
+        chart will display. The admin can then enter sales that the user has
+        received for their invention, and the chart in the user's account will
+        change accordingly
+      </p>
+      <div class="lg:w-1/2 text-center mx-auto">
+        <a href="https://invention-group.vercel.app/" target="_blank"
+          ><button
+            class="border-4 border-[#0f0] px-8 py-4 bg-[#333] font-bold text-3xl rounded-full text-[#0f0]"
+          >
+            Go To Website
+          </button></a
+        >
+      </div>
+    </div>
+    <ul class="flex justify-evenly flex-wrap my-20">
+      <li>
+        <img
+          src="images/invention-group/invention-group-home.jpg"
+          alt=""
+          class="w-[400px] lg:w-[500px] h-[250px] lg:h-[300px] mb-20"
+        />
+      </li>
+      <li>
+        <img
+          src="images/invention-group/invention-group-approved-invention.jpg"
+          alt=""
+          class="w-[400px] lg:w-[500px] h-[250px] lg:h-[300px] mb-20"
+        />
+      </li>
+      <li>
+        <img
+          src="images/invention-group/invention-group-sales.jpg"
+          alt=""
+          class="w-[400px] lg:w-[500px] h-[250px] lg:h-[300px] mb-20"
+        />
+      </li>
+    </ul>
+  </body>
+</html>

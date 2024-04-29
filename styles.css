@@ -1,0 +1,13 @@
+.icon-large {
+  font-size: 48px;
+}
+
+/* Change the color of the icon */
+.icon-red {
+  color: red;
+}
+
+/* Add some space around the icon */
+.icon-spaced {
+  margin: 10px;
+}
