@@ -26,31 +26,31 @@ const projects = [
     name: "The Invention Group",
     tech: ["NextJS, Tailwind"],
     url: "invention-group.html",
-    image: "/images/invention-group/invention-group-home.jpg",
+    image: "images/invention-group/invention-group-home.jpg",
   },
   {
     name: "DataMed",
     tech: ["React, Tailwind"],
     url: "data-med.html",
-    image: "/images/data-med.png",
+    image: "images/data-med.png",
   },
   {
     name: "JuicyRoots Cafe",
     tech: ["PHP, Bootstrap"],
     url: "juicy-roots.html",
-    image: "/images/juicy-roots-cafe-desktop.jpg",
+    image: "images/juicy-roots-cafe-desktop.jpg",
   },
   {
     name: "Author Website",
     tech: ["WordPress, PHP, Bootstrap"],
     url: "author-website.html",
-    image: "/images/author-website/author-home.jpg",
+    image: "images/author-website/author-home.jpg",
   },
   {
     name: "HERA",
     tech: ["WordPress, PHP, Bootstrap"],
     url: "hera.html",
-    image: "/images/hera/hera-home.jpg",
+    image: "images/hera/hera-home.jpg",
   },
 ];
 
